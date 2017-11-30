@@ -2,6 +2,7 @@
   <ul>
     <li *ngFor='let entry of journalEntryList'>
       {{entry.title}} // {{entry.date | date:'medium'}}
+      <a [routerLink]="['/home', entry._id]">Go to the entry</a>
     </li>
   </ul>
 </div>

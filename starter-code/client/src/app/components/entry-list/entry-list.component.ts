@@ -12,8 +12,6 @@ import { DatePipe } from '@angular/common';
 export class EntryListComponent implements OnInit {
 
   journalEntryList: JournalEntry[];
-  journalEntry: JournalEntry;
-
 
   constructor(private journalEntriesService: JournalEntriesService) { }
 
