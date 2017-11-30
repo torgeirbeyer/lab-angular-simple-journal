@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li *ngFor='let entry of journalEntryList'>
+      {{entry.title}} // {{entry.date | date:'medium'}}
+    </li>
+  </ul>
+</div>
+
+<!-- {{journalEntryList | json}} -->
